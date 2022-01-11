@@ -18,7 +18,7 @@ class SpringJenkinsApplicationTests {
 		//given 
 		SpringJenkinsApplicationTests obj = new SpringJenkinsApplicationTests();
 		int res = obj.addTwoNumbers(5, 10);
-		assertEquals(16, res);
+		assertEquals(15, res);
 	}
 
 	int addTwoNumbers(int num1, int num2) {
