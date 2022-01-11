@@ -14,6 +14,7 @@ class SpringJenkinsApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("test started...");
+		logger.info("test case executing***");
 		//given 
 		SpringJenkinsApplicationTests obj = new SpringJenkinsApplicationTests();
 		int res = obj.addTwoNumbers(5, 10);
